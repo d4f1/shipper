@@ -6,7 +6,7 @@ Register New Account
     [Arguments]                 ${first_name}               ${last_name}
     ...                         ${email}                    ${hp}
     ...                         ${password}                 ${confirm_password}
-    ...                         ${address}                  ${postcode}
+    ...                         ${address}
     Click Register Page
     Input First Name            ${first_name}
     Input Last Name             ${last_name}
@@ -18,5 +18,4 @@ Register New Account
     Choose City
     Choose Criticism
     Choose Area
-    Input Postal Code                 ${postcode}
     Click Daftar Button

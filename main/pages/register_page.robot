@@ -65,3 +65,9 @@ Input Postal Code
 Click Daftar Button
     Wait Until Element Is Visible           ${daftar_btn}
     Click Element                           ${daftar_btn}
+
+Shown Success Allert
+    Wait Until Element Is Visible           ${success_allert}
+
+Shown Error Allert
+    Wait Until Element Is Visible           ${error_allert}

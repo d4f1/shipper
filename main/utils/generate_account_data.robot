@@ -19,8 +19,8 @@ Generate Street Name
     Set Global Variable         ${street}
 
 Generate Phone Number
-    ${accountnumber}=           Fakerlibrary.Random Number              digits=7           fix_len=True
-    ${number}                   Set Variable            0857${accountnumber}
+    ${accountnumber}=           Fakerlibrary.Random Number              digits=5           fix_len=True
+    ${number}                   Set Variable            085799${accountnumber}
     Set Global Variable         ${number}
 
 Generate Fake Email

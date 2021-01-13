@@ -1,7 +1,6 @@
 *** Variable ***
 
 ${base_url}                 https://shipper.id/bos/auth/login
-${email}                    user@phptravels.com
-${password}                 demouser
+${available_pwd}            Testing@123!
 
 ${ENV}

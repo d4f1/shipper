@@ -10,11 +10,13 @@ Resource                    data.robot
 Resource                    ../pages/login_page.robot
 Resource                    ../pages/home_page.robot
 Resource                    ../pages/register_page.robot
+Resource                    ../pages/verification_page.robot
 
 #### Selectors
 Resource                    ../selectors/login_selectors.robot
 Resource                    ../selectors/home_selectors.robot
 Resource                    ../selectors/register_selectors.robot
+Resource                    ../selectors/verification_selectors.robot
 
 #### Modules
 Resource                    ../modules/login_module.robot

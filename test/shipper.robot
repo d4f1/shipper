@@ -16,9 +16,18 @@ Register User
     ...                                         ${last_name}
     ...                                         ${email}
     ...                                         ${number}
-    ...                                         testing
-    ...                                         testing
+    ...                                         ${available_pwd}
+    ...                                         ${available_pwd}
     ...                                         ${street}
-    ...                                         ${zipcode}
+    Then Shown Success Allert
 
+Verification Email
+    Given Open Verification                     ${email}
+    And Input Registered Password               ${available_pwd}
+    And Click Masuk Button
+
+Login User
+    Given Input Username and Password           ${email}              ${available_pwd}
+    And Click Masuk Button
+    Then Shown Error Allert
 
